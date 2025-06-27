@@ -1,0 +1,20 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "API REST para gestión de peliculas con Node.js, Express y Sequelize",
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  }
+}
