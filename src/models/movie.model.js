@@ -3,7 +3,7 @@ import { DataTypes } from "sequelize";
 import { sequelize } from "../config/database.js";
 
 // Creacion del modelo movies
-export const movies = sequelize.define("Movies",
+export const Movies = sequelize.define("Movies",
     {
         title: {
             type: DataTypes.STRING,
