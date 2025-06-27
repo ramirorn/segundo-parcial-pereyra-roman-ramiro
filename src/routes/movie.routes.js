@@ -8,7 +8,7 @@ import {
     updateMovie,
     getAllMovies,
     getMovieByID
-} from "../controllers/movie.controllers";
+} from "../controllers/movie.controllers.js";
 
 
 export const moviesRoutes = Router();

@@ -12,6 +12,6 @@ app.use(express.json());
 app.use("/api", moviesRoutes);
 
 app.listen(PORT, async () => {
-    await startDB;
+    await startDB();
     console.log(`SERVIDOR CORRIENDO EN: http://localhost:${PORT}/api`)
 })
